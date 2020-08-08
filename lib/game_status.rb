@@ -34,4 +34,11 @@ def won?(board)
   return false
 end
 
-    
+def full?(board)
+  board.each do |value|
+    if value == " "
+      return false
+    end
+  end
+  return true 
+end
