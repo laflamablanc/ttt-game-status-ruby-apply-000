@@ -62,6 +62,7 @@ end
 
 def winner(board)
   if won?(board) != false
-    return pos1
+    array = won?(board)
+    value = board[array[0]]
   end
 end
