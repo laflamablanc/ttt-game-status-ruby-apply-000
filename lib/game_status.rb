@@ -26,7 +26,7 @@ def won?(board)
     pos2 = board[win_index_2]
     pos3 = board[win_index_3]
     
-    if pos1 == pos2 && pos2 == pos3 
+    if (pos1 == pos2 && pos2 == pos3) && pos1 != 0  
       return win 
     else
       return false
