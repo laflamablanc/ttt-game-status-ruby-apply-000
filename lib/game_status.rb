@@ -60,3 +60,8 @@ def over?(board)
   end
 end
 
+def winner(board)
+  if won?(board) != false
+    return pos1
+  end
+end
